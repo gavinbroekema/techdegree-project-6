@@ -4,6 +4,9 @@ const data = require('./data.json');
 
 // Optionally - the path module which can be used when setting the absolute path in the express.static function.
 
+app.use('/static', express.static('public'));
+app.use('/images', express.static('images'));
+
 app.set('view engine', 'pug');
 
 // use a static route and the express.static method to serve the static files located in the public folder
@@ -18,8 +21,9 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/:id', (req, res) => {
-    res.render('about', data);
+    const id = req.params.id;
+    res.render('project', { data, id: req.params.id } );
 })
 
 
-app.listen('3000', () => { console.log('App is running...')})
+app.listen('3000', () => { console.log('App is running...')}) 
