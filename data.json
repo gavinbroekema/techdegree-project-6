@@ -1,0 +1,44 @@
+{
+    "projects": [
+        { 
+            "id": "0",
+            "project_name": "A Random Quote Generator",
+             "description": "",
+             "technologies": [""],
+             "live_link": "linktogithub",
+             "image_urls": ["thumbnail", "one", "two", "three"]
+        },
+        { 
+            "id": "1",
+            "project_name": "A Random Quote Generator",
+             "description": "",
+             "technologies": [""],
+             "live_link": "linktogithub",
+             "image_urls": ["thumbnail", "one", "two", "three"]
+        },
+        { 
+            "id": "2",
+            "project_name": "A Random Quote Generator",
+             "description": "",
+             "technologies": [""],
+             "live_link": "linktogithub",
+             "image_urls": ["thumbnail", "one", "two", "three"]
+        },
+        { 
+            "id": "3",
+            "project_name": "A Random Quote Generator",
+             "description": "",
+             "technologies": [""],
+             "live_link": "linktogithub",
+             "image_urls": ["thumbnail", "one", "two", "three"]
+        },
+        { 
+            "id": "4",
+            "project_name": "A Random Quote Generator",
+             "description": "",
+             "technologies": [""],
+             "live_link": "linktogithub",
+             "image_urls": ["thumbnail", "one", "two", "three"]
+        }
+    ]
+}
