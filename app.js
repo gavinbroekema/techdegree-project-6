@@ -8,21 +8,18 @@ app.set('view engine', 'pug');
 
 // use a static route and the express.static method to serve the static files located in the public folder
 
+
 app.get('/', (req, res) => {
-    
+    res.render('index', data);
 })
 
-// app.get('/', (req, res) => {
-//     res.render('index', data);
-// })
+app.get('/about', (req, res) => {
+    res.render('about', data);
+})
 
-// app.get('/about', (req, res) => {
-//     res.render('about', data);
-// })
-
-// app.get('/:id', (req, res) => {
-//     res.render('about', data);
-// })
+app.get('/:id', (req, res) => {
+    res.render('about', data);
+})
 
 
 app.listen('3000', () => { console.log('App is running...')})
